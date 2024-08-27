@@ -1,12 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primeira página HTML</title>
+    <title>Minha Primeira Página HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+        }
+
+        main {
+            background-color: white;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            width: 90%;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #4CAF50;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            width: 100%;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+        }
+
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <h1>Olá, mundo!</h1>
-    <p>Este é o meu primeiro arquivo HTML.</p>
+    <header>
+        <h1>Bem-vindo à Minha Primeira Página HTML</h1>
+    </header>
+
+    <main>
+        <img src="https://via.placeholder.com/800x400" alt="Imagem ilustrativa">
+
+        <h2>Sobre esta Página</h2>
+        <p>Esta é uma página de exemplo criada para aprender os fundamentos do HTML. Nela, você encontrará um exemplo básico de como estruturar uma página web e aplicar estilos simples utilizando CSS.</p>
+
+        <h2>O que você vai aprender?</h2>
+        <p>Com esta página, você vai aprender a:</p>
+        <ul>
+            <li>Criar uma estrutura básica de HTML</li>
+            <li>Utilizar tags como <code>&lt;h1&gt;</code>, <code>&lt;p&gt;</code>, <code>&lt;img&gt;</code> e <code>&lt;a&gt;</code></li>
+            <li>Adicionar estilos básicos com CSS</li>
+            <li>Incorporar imagens e links</li>
+        </ul>
+
+        <h2>Links Úteis</h2>
+        <p>Confira mais recursos para aprender HTML:</p>
+        <ul>
+            <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">Documentação HTML no MDN</a></li>
+            <li><a href="https://www.w3schools.com/html/" target="_blank">Tutorial de HTML no W3Schools</a></li>
+        </ul>
+    </main>
+
+    <footer>
+        <p>© 2024 Minha Primeira Página HTML. Criado por [Seu Nome].</p>
+    </footer>
 </body>
 </html>
